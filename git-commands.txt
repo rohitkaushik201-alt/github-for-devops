@@ -1,0 +1,11 @@
+    git init
+    git status
+    git status
+    git add hello.py
+    git status
+    git rm --cached hello.py
+    git add hello.py
+    git commit -m "adding hello.py"
+    git status
+    rm hello.py
+    git restore hello.py
